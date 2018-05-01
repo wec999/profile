@@ -109,13 +109,31 @@ a:hover {
 }
 
 .btn-green {
-    background-color: #1A3C40;
-    color: white;
-    padding: 10px 20px;
-    opacity: 0.8;
-    font-weight: bold;
-    border-radius: 3px;
+  background-color: #1A3C40;
+  color: white;
+  padding: 10px 20px;
+  opacity: 0.8;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color:#384047;
 }
 
 
+#page-content {
+  margin-left: 300px;
+}
+
+.big-icon {
+  font-size: 60px;
+  color:gray;
+  padding:50px;
+}
 
